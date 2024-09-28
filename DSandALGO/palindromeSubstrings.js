@@ -4,7 +4,7 @@ function substrings(str){
     let result = [];
     while(startIndex <= str.length-2){
         let endIndex = startIndex + 2;
-        while(endIndex <=str.length-2){
+        while(endIndex <=str.length){
             result.push(str.slice(startIndex, endIndex));
             endIndex++;
         }
