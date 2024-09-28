@@ -13,6 +13,7 @@ function binarySearch(sortedArray, target){
             end = mid - 1;
         }
 
-        return -1;
     }
+    return -1;
+
 }
