@@ -1,6 +1,6 @@
 function optimizedFindMajority(array){
     const pairMap = new Map();
-    let maxCount = Math.ceil(array.length / 2);;
+    let maxCount = Math.ceil(array.length / 2);
 
     for(let num of array){
         if(pairMap.has(num)){
@@ -12,8 +12,6 @@ function optimizedFindMajority(array){
         if(pairMap.get(num) >= maxCount){
             return num;
         }
-        
-
     }  
 
 }
