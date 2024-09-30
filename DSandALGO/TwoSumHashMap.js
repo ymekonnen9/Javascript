@@ -11,4 +11,6 @@ function findPair(nums, targe){
 
         numMap.set(nums[i], i);
     }
+
+    return null;
 }
