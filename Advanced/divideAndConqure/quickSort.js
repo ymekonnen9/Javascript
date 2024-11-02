@@ -22,3 +22,5 @@ function quickSort(arra){
 
     return arra;
 }
+
+//not completed tho
